@@ -13,9 +13,10 @@ import com.bunfly.model.User;
 
 @Repository
 public class UserDaoImpl implements IUserDao{
-
+ 
 	@Resource
 	private SessionFactory fac;
+
 	@Override
 	public List<User> query() throws RuntimeException {
 		String hql = "from User";

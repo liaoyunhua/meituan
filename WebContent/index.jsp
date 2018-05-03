@@ -25,13 +25,6 @@
 			</tr>
 		</s:iterator>
 		
-		<%-- <c:forEach var="usr" items="${list }">
-			<tr>
-				<td>${usr.id }</td>
-				<td>${usr.name }</td>
-				<td>${usr.password }</td>
-			</tr>
-		</c:forEach> --%>
 	</table>
 </body>
 </html>
